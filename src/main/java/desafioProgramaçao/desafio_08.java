@@ -47,7 +47,7 @@ public class desafio_08 {
                 potencia *= 2;
 
             }
-            System.out.println("O numero binario" + binario + " em decimal é" + decimal);
+            System.out.println("O numero binario " + binario + " em decimal é " + decimal);
         } else {
             System.out.println("Opção invalida!");
         }
