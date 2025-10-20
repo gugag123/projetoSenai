@@ -11,11 +11,9 @@ public class atv9 {
         int defeito = sc.nextInt();
         if (defeito > 10) {
             System.out.println("acionar alerta " + defeito + "%");
-        }
-        else if (defeito <= 10) {
+        } else if (defeito <= 10) {
             System.out.println("lote aprovado " + defeito + "%");
-        }
-        else {
+        } else {
             System.out.println("");
         }
         sc.close();

@@ -13,17 +13,13 @@ public class atv2 {
 
         if (codigo == 1) {
             System.out.println("peça aprovado");
-        }
-        else if (codigo == 2) {
+        } else if (codigo == 2) {
             System.out.println("peça reprovada");
-        }
-        else if (codigo == 3) {
+        } else if (codigo == 3) {
             System.out.println("peça retrabalhada");
-        }
-        else if (codigo == 4) {
+        } else if (codigo == 4) {
             System.out.println("peça e, analise manual");
-        }
-        else {
+        } else {
             System.out.println("codigo invalido");
         }
         sc.close();

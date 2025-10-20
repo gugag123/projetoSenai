@@ -13,11 +13,9 @@ public class atv3 {
 
         if (energia < 30) {
             System.out.println("modo econômico");
-        }
-        else if (energia <= 70) {
+        } else if (energia <= 70) {
             System.out.println("modo normal");
-        }
-        else {
+        } else {
             System.out.println("modo turbo");
         }
         sc.close();

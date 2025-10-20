@@ -11,11 +11,9 @@ public class atv11 {
         int bate = sc.nextInt();
         if (bate < 20) {
             System.out.println("retorno imediato");
-        }
-        else if (bate <= 60) {
+        } else if (bate <= 60) {
             System.out.println("rota curta");
-        }
-        else {
+        } else {
             System.out.println("rota longa");
         }
         sc.close();
