@@ -9,7 +9,6 @@ public class desafio_02 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite um numero entre 1 e 399: ");
         int numero = sc.nextInt();
-
         if (numero < 1 || numero > 399) {
             System.out.print("Numero fora do limite permitido (1 a 399).");
         } else {
@@ -31,7 +30,6 @@ public class desafio_02 {
             } else if (numero >= 40) {
                 System.out.print("XL");
                 numero -= 40;
-
             } else {
                 while (numero >= 10) {
                     System.out.print("X");

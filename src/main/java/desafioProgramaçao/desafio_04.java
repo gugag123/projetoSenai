@@ -7,12 +7,9 @@ public class desafio_04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
-
         System.out.println("Digite o valor que deseja sacar: ");
         int valor = sc.nextInt();
-
         int ced50 = 0, ced10 = 0, ced2 = 0;
-
         if (valor % 2 != 0) {
             System.out.println("Valor inválido! O valor deve ser multiplo de 2.");
         } else {

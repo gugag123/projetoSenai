@@ -25,6 +25,5 @@ public class exemploString {
         System.out.println("replace('abc', 'xy'): -" + s07 + "-");
         System.out.println("Index of 'bc': " + i);
         System.out.println("Last index of 'bc': " + j);
-
     }
 }

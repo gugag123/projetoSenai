@@ -11,9 +11,7 @@ public class desafio_08 {
         System.out.println(" Decimal para Binario (1)");
         System.out.println(" Binario para Decimal (2)");
         System.out.println("Escolha uma opção");
-
         int opcao = sc.nextInt();
-
         if (opcao == 1) {
             System.out.println("Digite um numero decimal: ");
             int decimal = sc.nextInt();
@@ -30,22 +28,17 @@ public class desafio_08 {
                 }
             }
             System.out.println("O numero " + decimal + " em binario é: " + binario);
-
         } else if (opcao == 2) {
             System.out.print("Digite um numero binario: ");
             String binario = sc.next();
-
             int decimal = 0;
             int potencia = 1;
-
             for (int i = binario.length() - 1; i >= 0; i--) {
                 char digito = binario.charAt(i);
-
                 if (digito == '1') {
                     decimal += potencia;
                 }
                 potencia *= 2;
-
             }
             System.out.println("O numero binario " + binario + " em decimal é " + decimal);
         } else {

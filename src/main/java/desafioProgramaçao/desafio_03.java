@@ -10,13 +10,10 @@ public class desafio_03 {
         System.out.println("Digite um numero inteiro (até 7 digitos): ");
         int numero = sc.nextInt();
         sc.nextLine();
-
         System.out.println("Digite uma palavra: ");
         String palavra = sc.nextLine();
-
         int original = numero;
         int invertido = 0;
-
         while (numero > 0) {
             int resto = numero % 10;
             invertido = invertido * 10 + resto;

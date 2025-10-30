@@ -9,7 +9,5 @@ public class exemplo4A2 {
         System.out.println();
         resultado=(double)a / b;
         System.out.println(resultado);
-
-
     }
 }

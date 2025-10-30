@@ -9,7 +9,7 @@ public class exemploFuncao {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int higher =max(a, b, c);//parâmetros
+        int higher = max(a, b, c);//parâmetros
         showResult(higher);
         sc.close();
     }
@@ -24,7 +24,6 @@ public class exemploFuncao {
         }
         return aux;
     }
-
     public static void showResult(int value) {
         System.out.println("Higher = " + value);
     }

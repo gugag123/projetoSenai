@@ -7,8 +7,8 @@ public class atv1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
-        System.out.println("Calculadora Simples " );
-        System.out.println( "Digite os números");
+        System.out.println("Calculadora Simples ");
+        System.out.println("Digite os números");
         double n1 = sc.nextDouble();
         double n2 = sc.nextDouble();
         System.out.println("Escolha a operação");
@@ -19,39 +19,42 @@ public class atv1 {
         System.out.println(" Opção: ");
         int opçao = sc.nextInt();
         double resultado;
-        if (opçao == 1){
-         resultado = Calculadora.somar(n1, n2);
+        if (opçao == 1) {
+            resultado = Calculadora.somar(n1, n2);
             System.out.println("Resultado: " + resultado);
-        }else if (opçao==2){
+        } else if (opçao == 2) {
             resultado = Calculadora.subtrair(n1, n2);
             System.out.println("Resultado: " + resultado);
-        }else if (opçao==3){
-            resultado= Calculadora.multiplicar(n1, n2);
+        } else if (opçao == 3) {
+            resultado = Calculadora.multiplicar(n1, n2);
             System.out.println("Resultado: " + resultado);
-        }else if (opçao==4){
+        } else if (opçao == 4) {
             resultado = Calculadora.dividir(n1, n2);
             System.out.println("Resultado: " + resultado);
-        }else{
+        } else {
             System.out.println("Opção invalida!");
         }
         sc.close();
     }
 
-    class Calculadora{
-        public static double somar(double a, double b){
+    class Calculadora {
+        public static double somar(double a, double b) {
             return a + b;
         }
-        public static double subtrair(double a, double b){
+
+        public static double subtrair(double a, double b) {
             return a - b;
         }
-        public static double multiplicar(double a, double b){
+
+        public static double multiplicar(double a, double b) {
             return a * b;
         }
-        public static double dividir( double a, double b){
-            if (b==0){
+
+        public static double dividir(double a, double b) {
+            if (b == 0) {
                 System.out.println("Errro: divisão por zero!");
                 return 0;
-            }else{
+            } else {
                 return a / b;
             }
         }

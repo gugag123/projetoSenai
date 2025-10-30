@@ -5,10 +5,8 @@ import java.util.Scanner;
 
 public class exemplodoubleWhile {
     public static void main(String[] args) {
-
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-
         char resp;
         do {
             System.out.print("Digite a temperatura em Celsius");

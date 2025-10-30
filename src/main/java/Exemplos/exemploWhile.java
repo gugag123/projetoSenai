@@ -15,8 +15,8 @@ public class exemploWhile {
             // Assim que o usuario digitar 0 ele salta do while
             // digirindo para a impressão mostrando o conteudo da soma
         }
-            System.out.println(soma);
-            sc.close();
+        System.out.println(soma);
+        sc.close();
 
     }
 }
